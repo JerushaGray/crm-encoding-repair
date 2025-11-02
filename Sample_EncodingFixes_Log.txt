@@ -1,0 +1,99 @@
+==================================
+Encoding Fix Log
+Date: 2025-11-01 14:30:45
+Workbook: CRM_Contacts_Export.xlsx
+Worksheet: Contacts
+==================================
+
+Row 5, Column 2 (B5):
+  BEFORE: MÃ¼ller
+  AFTER:  Müller
+
+Row 5, Column 4 (D5):
+  BEFORE: mÃ¼ller@example.de
+  AFTER:  müller@example.de
+
+Row 12, Column 2 (B12):
+  BEFORE: Françoise Duboisâ€™s Consulting
+  AFTER:  Françoise Dubois's Consulting
+
+Row 12, Column 6 (F6):
+  BEFORE: Specializing in â€œdigital transformationâ€ projects
+  AFTER:  Specializing in "digital transformation" projects
+
+Row 23, Column 2 (B23):
+  BEFORE: ÅšwiÄ™ty
+  AFTER:  Święty
+
+Row 23, Column 3 (C23):
+  BEFORE: ul. Próżna 12
+  AFTER:  ul. Próżna 12
+
+Row 34, Column 2 (B34):
+  BEFORE: Malmö & SöderstrÃ¶m AB
+  AFTER:  Malmö & Söderström AB
+
+Row 45, Column 5 (E45):
+  BEFORE: Contract value: â‚¬150,000
+  AFTER:  Contract value: €150,000
+
+Row 56, Column 4 (D56):
+  BEFORE: O&#39;Brien Industries
+  AFTER:  O'Brien Industries
+
+Row 67, Column 6 (F67):
+  BEFORE: Notes: Customer preferredâ€"no cold calls
+  AFTER:  Notes: Customer preferred—no cold calls
+
+Row 78, Column 2 (B78):
+  BEFORE: Jiří Dvořák
+  AFTER:  Jiří Dvořák
+
+Row 89, Column 3 (C89):
+  BEFORE: İstanbul Ticaret A.Ş.
+  AFTER:  İstanbul Ticaret A.Ş.
+
+Row 92, Column 2 (B92):
+  BEFORE: Zoë van den Berg
+  AFTER:  Zoë van den Berg
+
+Row 103, Column 4 (D103):
+  BEFORE: São Paulo Office
+  AFTER:  São Paulo Office
+
+Row 115, Column 5 (E115):
+  BEFORE: Temperature range: 20Â°C â€" 25Â°C
+  AFTER:  Temperature range: 20°C – 25°C
+
+Row 127, Column 6 (F127):
+  BEFORE: Â© 2024 All rights reservedÂ®
+  AFTER:  © 2024 All rights reserved®
+
+Row 138, Column 3 (C138):
+  BEFORE: CafÃ© de la Paix
+  AFTER:  Café de la Paix
+
+Row 149, Column 2 (B149):
+  BEFORE: Åsa Lindström
+  AFTER:  Åsa Lindström
+
+Row 156, Column 4 (D156):
+  BEFORE: Montréal, Québec
+  AFTER:  Montréal, Québec
+
+Row 167, Column 5 (E167):
+  BEFORE: Price: Â£2,500 (incl. VAT)
+  AFTER:  Price: £2,500 (incl. VAT)
+
+Row 178, Column 6 (F178):
+  BEFORE: Follow-upâ€¦pending client response
+  AFTER:  Follow-up…pending client response
+
+==================================
+SUMMARY
+==================================
+Total cells processed: 8,450
+Cells with fixes: 47
+Encoding patterns checked: 250
+
+Log file saved to: C:\Users\YourName\Documents\CRM_Contacts_Export\EncodingFixes_2025-11-01_14-30-45.txt
